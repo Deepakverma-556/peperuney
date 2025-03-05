@@ -1,8 +1,8 @@
 import { MARQUEE_LIST } from "@/utils/helper"
 import Marquee from "react-fast-marquee"
-const CustomMarquee = () => {
+const CustomMarquee = ({myClass}) => {
   return (
-      <div className="bg-customRed border-t-4 border-b-4 border-black">
+      <div className={`${myClass} bg-customRed border-t-4 border-b-4 border-black`}>
           <Marquee direction="left" pauseOnHover={true}>
               <div className="flex gap-10 py-[30px] max-lg:py-3 max-sm:py-6">
                   {MARQUEE_LIST.map((obj, i) => (

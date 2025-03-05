@@ -2,6 +2,14 @@
 
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-lg: 1025px;
+  --breakpoint-md: 770px;
+  --color-customRed:rgba(218, 41, 28, 1);
+  --color-avocado-100: oklch(0.99 0 0);
+  --color-avocado-200: oklch(0.98 0.04 113.22);
+}
+
 * {
   font-family: "Schoolbell", sans-serif;
 }

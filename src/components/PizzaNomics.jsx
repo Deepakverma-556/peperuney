@@ -10,7 +10,7 @@ const PizzaNomics = () => {
       <div>
       <div className="bg-[url(/assets/images/webp/pizzanomics-bg.webp)] bg-cover bg-no-repeat">
                 <Image src={'/assets/images/webp/pizzanomics-small.webp'} alt="small" height={900} width={700} className="sm:hidden w-full pointer-events-none max-sm:h-[1000px]"/>
-          <div className="sm:pt-[777px] max-sm:pt-8 max-w-[1200px] mx-auto flex items-center max-lg:flex-wrap justify-between">
+          <div className="sm:pt-[777px] max-sm:pt-8 2xl:pt-[1260px] max-w-[1200px] mx-auto flex items-center max-lg:flex-wrap justify-between">
               <div className="sm:pt-80 lg:pl-20 max-lg:mx-auto max-sm:pb-[13px]">
                   <Heading text={'BAKE TO EARN'}/>
                   <CustomButton text={"EARN NOW"} myClass={'!h-[97px] !w-[313px] max-lg:!h-20 max-lg:!w-60 max-sm:!w-[335px] max-sm:!h-[74px] mx-auto mt-4'} imgClass={"!h-[97px] !w-[313px] max-lg:!h-20 max-lg:!w-60 max-sm:!w-[335px] max-sm:!h-[74px]"}/>

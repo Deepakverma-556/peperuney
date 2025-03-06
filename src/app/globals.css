@@ -17,3 +17,13 @@
 .ff-luckiest {
   font-family: "Luckiest Guy", sans-serif;
 }
+
+.font-outline-2 {
+  -webkit-text-stroke: 1px black;
+}
+
+/* @media (max-width:639.99px) {
+  .pizza {
+    background-size: 170% 100% !important;
+  }
+} */

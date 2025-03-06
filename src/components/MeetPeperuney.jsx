@@ -18,7 +18,7 @@ function MeetPeperuney() {
                         <div className="border-t border-black mt-1"></div>
                         <div className="flex items-center justify-between pt-3 max-sm:pr-4">
                             <p className="text-[32px] max-xl:text-2xl max-md:leading-8 leading-[44.56px] text-black">FEELS GREAT MAN!</p>
-                            <CustomButton text={'MANIFESTO'} myClass={'max-[1330px]:h-14 max-[1330px]:w-[180px] max-sm:w-[127px] max-sm:h-[36px]'} imgClass={''} />
+                            <CustomButton text={'MANIFESTO'} myClass={'max-[1330px]:h-14 max-[1330px]:w-[180px] max-sm:w-[127px] max-sm:h-[36px]'}/>
                         </div>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ const HowToBuy = () => {
         <Heading text={"HOW TO BUY"} myClass={"mx-auto z-10 relative"} />
         <Image src={"/assets/images/png/peperuney-sticker.png"} alt="peperuney-sticker" height={105} width={365} className="mx-auto -mt-5 max-sm:-mt-3 z-20 relative max-lg:h-20 max-lg:w-64 max-sm:w-[231px]" />
       </div>
-      <div className="bg-[url(/assets/images/webp/pizza-box.webp)] pizza bg-cover bg-center bg-no-repeat">
+      <div className="bg-[url(/assets/images/webp/pizza-box.webp)] bg-cover bg-center bg-no-repeat">
         <div className="max-w-[1072px] mx-auto pt-[146px] max-lg:pt-10 px-4">
           <div className="flex flex-wrap -mx-[19px] max-lg:-mx-3 items-end justify-center">
             {HOW_TO_BUY_CARDS_LIST.map((obj, i) => (

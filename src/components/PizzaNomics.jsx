@@ -9,7 +9,7 @@ const PizzaNomics = () => {
     return (
       <div>
       <div className="bg-[url(/assets/images/webp/pizzanomics-bg.webp)] bg-cover bg-no-repeat">
-                <Image src={'/assets/images/webp/pizzanomics-small.webp'} alt="small" height={900} width={700} className="sm:hidden w-full pointer-events-none max-sm:h-[1600px]"/>
+                <Image src={'/assets/images/webp/pizzanomics-small.webp'} alt="small" height={900} width={700} className="sm:hidden w-full pointer-events-none max-sm:h-[1000px]"/>
           <div className="sm:pt-[777px] max-sm:pt-8 max-w-[1200px] mx-auto flex items-center max-lg:flex-wrap justify-between">
               <div className="sm:pt-80 lg:pl-20 max-lg:mx-auto max-sm:pb-[13px]">
                   <Heading text={'BAKE TO EARN'}/>

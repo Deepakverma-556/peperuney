@@ -21,10 +21,10 @@ function Header() {
                 </button>
                 <div className="flex items-center gap-2">
                     {HEADER_ICONS_LIST.map((obj, i) => (
-                        <div key={i} className="relative h-[67px] w-[77px] max-lg:w-12 max-lg:h-10 max-sm:h-8 max-sm:w-9 flex items-center justify-center">
+                        <Link href={obj.link} target="blank" key={i} className="relative h-[67px] w-[77px] max-lg:w-12 max-lg:h-10 max-sm:h-8 max-sm:w-9 flex items-center justify-center link">
                             <Image src={'/assets/images/png/icon-bg.png'} alt="icon-bg" height={67} width={77} className="absolute top-0 left-0 pointer-events-none" />
-                            <Link target="blank" href={obj.link} className="z-20 link">{obj.icon}</Link>
-                        </div>
+                            <span className="z-20">{obj.icon}</span>
+                        </Link>
                     ))}
                 </div>
             </div>

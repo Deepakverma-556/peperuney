@@ -26,3 +26,16 @@
   fill: red;
   transition: all 200ms linear;
 }
+
+.hero{
+  animation: hero 1s linear;
+}
+
+@keyframes hero {
+  from{
+    transform: translateX(-500px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}

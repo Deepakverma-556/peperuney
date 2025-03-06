@@ -3,17 +3,19 @@ import CustomMarquee from "./common/CustomMarquee"
 import Heading from "./common/Heading"
 import { HOW_TO_BUY_CARDS_LIST } from "@/utils/helper"
 import { CopyIcon } from "@/utils/icons"
+import Link from "next/link"
 
 const HowToBuy = () => {
   return (
     <div className="bg-white">
-      <CustomMarquee myClass={'!bg-customGreen !pb-16'} />
-      <Image src={"/assets/images/png/big-cloud.png"} alt="big-cloud" height={1920} width={195} className="w-full pointer-events-none -mt-28 max-md:h-[140px] max-sm:h-28" />
+      <CustomMarquee myClass={'!bg-customGreen !pb-16 2xl:!pb-40'} />
+      <Image src={"/assets/images/webp/big-cloud.webp"} alt="big-cloud" height={1920} width={195} className="w-full pointer-events-none -mt-28 2xl:-mt-40 max-md:h-[140px] max-sm:h-28" />
       <div className="pt-[50px] max-sm:pt-11 pb-10">
         <Heading text={"HOW TO BUY"} myClass={"mx-auto z-10 relative"} />
-        <Image src={"/assets/images/png/peperuney-sticker.png"} alt="peperuney-sticker" height={105} width={365} className="mx-auto pointer-events-none -mt-5 max-sm:-mt-3 z-20 relative max-lg:h-20 max-lg:w-64 max-sm:w-[231px]" />
+        <Image src={"/assets/images/webp/second-sticker.webp"} alt="peperuney-sticker" height={105} width={365} className="mx-auto pointer-events-none -mt-5 max-sm:-mt-3 z-20 relative max-lg:h-20 max-lg:w-64 max-sm:w-[231px]" />
       </div>
-      <div className="bg-[url(/assets/images/webp/pizza-box.webp)] bg-cover bg-center bg-no-repeat">
+      <div className="lg:mx-3">
+      <div className="bg-[url(/assets/images/webp/pizza-box.webp)] bg-cover bg-center bg-no-repeat max-w-[1990px] mx-auto">
         <div className="max-w-[1072px] mx-auto pt-[146px] max-lg:pt-10 px-4">
           <div className="flex flex-wrap -mx-[19px] max-lg:-mx-3 items-end justify-center">
             {HOW_TO_BUY_CARDS_LIST.map((obj, i) => (
@@ -25,13 +27,14 @@ const HowToBuy = () => {
                 </div>
                 {i === 1 && <div className="border-4 mb-8 max-lg:hidden border-black bg-white flex items-center justify-between p-3 w-[346px] -ml-2 mt-[37px]">
                   <p className="text-lg text-black leading-[150%] text-center pt-[10px]">CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
-                  <div className="h-8 w-8 flex items-center justify-center bg-black"><CopyIcon/></div>
+                  <Link href={'/'} className="h-8 w-8 flex items-center justify-center bg-black group"><CopyIcon myClass={'transition-all duration-300 group-hover:fill-customRed'}/></Link>
                 </div> }
               </div>
             ))}
           </div>
         </div>
         <Image src={'/assets/images/webp/half-pizza.webp'} alt="pizza" height={495} width={1220} className="max-sm:h-[280px] pointer-events-none max-sm:w-full object-cover max-sm:mt-7 mx-auto"/>
+      </div>
       </div>
       <Image src={"/assets/images/webp/box-pattern.webp"} alt="pattern" width={1920} height={134} className="max-sm:object-cover pointer-events-none max-sm:h-[90px] w-full"/>
     </div>

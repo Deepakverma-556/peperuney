@@ -5,7 +5,7 @@
 @theme {
   --breakpoint-lg: 1025px;
   --breakpoint-md: 770px;
-  --color-customRed:rgba(218, 41, 28, 1);
+  --color-customRed: rgba(218, 41, 28, 1);
   --color-customGreen: rgba(6, 122, 82, 1);
   --color-avocado-200: oklch(0.98 0.04 113.22);
 }
@@ -22,20 +22,21 @@
   -webkit-text-stroke: 1px black;
 }
 
-.link:hover svg path{
+.link:hover svg path {
   fill: red;
   transition: all 200ms linear;
 }
 
-.hero{
+.hero {
   animation: hero 1s linear;
 }
 
 @keyframes hero {
-  from{
+  from {
     transform: translateX(-500px);
   }
-  to{
+
+  to {
     transform: translateX(0);
   }
 }

@@ -10,7 +10,7 @@ export default function Home() {
       <Hero />
       <MeetPeperuney />
       <HowToBuy />
-      <PizzaNomics/>
+      <PizzaNomics />
     </>
   );
 }

@@ -13,7 +13,7 @@ function MeetPeperuney() {
                     <Heading myClass={'-mt-24 text-center max-[404px]:-mt-32'} text={"MEET PEPERUNEY"} />
                     <Image src={'/assets/images/png/pizza-guy.png'} alt="pizza-guy" width={715} height={509} className="absolute pointer-events-none max-[1315px]:h-full z-10 top-0 left-0 max-lg:w-full max-lg:pr-10 max-sm:pr-0 max-sm:w-full" />
                     <Image src={'/assets/images/webp/sticker.webp'} alt="pizza-sticker" width={337} height={102} className="absolute pointer-events-none z-10 -top-10 left-1/2 -translate-x-1/2 max-sm:w-[195px] max-sm:h-[77px]" />
-                    <div className="px-16 max-sm:pl-8 max-lg:pl-20 max-sm:pr-4 relative z-20 pt-16 max-lg:pt-20 pb-20 max-sm:pt-20 max-sm:pb-12">
+                    <div className="px-16 max-sm:pl-8 max-lg:pl-20 max-lg:pr-20 max-sm:pr-4 relative z-20 pt-16 max-lg:pt-20 pb-20 max-sm:pt-20 max-sm:pb-12">
                         <Description myClass={''} text={"The pizza-slingin’, joint-tokin’, all-in degen fresh from the Matt Furie multiverse, here to leave his greasy mark on the memeverse one slice at a time. PepeRuney's the king of high-stakes and low-stress vibin’. Spot the red hat and polo? You know it’s pizza time, baby! Whether he’s hustlin’ for the next big score or chillin’ with the Boys Club, PepeRuney guarantees one thing: the vibes and the dough are always rollin’"} />
                         <div className="border-t border-black mt-1"></div>
                         <div className="flex items-center justify-between pt-3 max-sm:pr-4">

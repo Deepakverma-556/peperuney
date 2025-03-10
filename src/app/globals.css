@@ -7,7 +7,7 @@
   --breakpoint-md: 770px;
   --color-customRed: rgba(218, 41, 28, 1);
   --color-customGreen: rgba(6, 122, 82, 1);
-  --color-avocado-200: oklch(0.98 0.04 113.22);
+  --color-customGray: rgba(139, 133, 129, 1);
 }
 
 * {
@@ -38,5 +38,16 @@
 
   to {
     transform: translateX(0);
+  }
+}
+
+@media (max-width:779.99px) {
+  .earn{
+    background-size: 120% 100% !important;
+  }
+}
+@media (max-width:549.99px) {
+  .earn{
+    background-size: 180% 100% !important;
   }
 }
